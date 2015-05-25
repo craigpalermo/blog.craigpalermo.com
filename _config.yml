@@ -1,0 +1,14 @@
+# Site settings
+title: CP's Creatively Titled Blog
+email: craig@craigpalermo.com
+description: > # this means to ignore newlines until "baseurl:"
+    This site contains various pieces of sometimes useful information, typically
+    related to web development and technology. I'm not looking for anyone to
+    read it, but it's a good way for me to create an online record of those
+    thoughts that I wish to share with more than a piece of paper.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://craigpalermo.com" # the base hostname & protocol for your site
+github_username: unscsprt
+
+# Build settings
+markdown: kramdown
