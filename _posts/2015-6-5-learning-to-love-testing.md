@@ -45,20 +45,20 @@ jasmine init
 
 This leaves us with something like the following directory structure, where we'll create a new file to contain our test suite. Let's call it `myTestSpec.js`, and we'll call our actual script mymodule.js:
 
-```
+<pre>
 /project
   /spec
     /support
       jasmine.json
     myTestSpec.js
   mymodule.js
-```
+</pre>
 
 ### Write the tests
 
 After we've done that, we can finally start to write our tests. Drawing from an example in [Jasmine's intro docs](http://jasmine.github.io/2.0/introduction.html):
 
-```javascript
+{% highlight javascript %}
 /*
 * Using require.js is an easy way to bring the code we want
 * to test into the testing environment
@@ -70,7 +70,7 @@ describe("A suite", function() {
     expect(true).toBe(myModule !== null);
   });
 });
-```
+{% endhighlight %}
 
 Let's walk through the different parts of this:
 
